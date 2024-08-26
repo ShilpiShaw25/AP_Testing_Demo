@@ -22,6 +22,10 @@ def get_prediction(image_data):
   #print("Predicted_label: {} and confidence_score: {}".format(response,score))
   return response, score
 
+IMAGE_ADDRESS = "https://i.pinimg.com/564x/90/00/eb/9000eb25de3e00b5db89f64d15dccd95.jpg"
+# set the image
+st.image(IMAGE_ADDRESS, caption = "Image Classifier")
+
 
 #setting up the title
 st.title("Welcome to Image Classifier Web App!")#change according to your project   #edit 3
